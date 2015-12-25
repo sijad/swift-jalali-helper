@@ -25,7 +25,6 @@ class jalaliHelper {
     init() {
         let cale = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
         comp = cale!.components([.Year, .Day, .Month, .Weekday], fromDate: NSDate())
-        comp.calendar
         jajaliInit()
     }
     
